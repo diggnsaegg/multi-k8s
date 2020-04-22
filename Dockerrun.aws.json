@@ -24,7 +24,7 @@
 			"name": "worker",
 			"image": "dan361/multi-worker",
 			"hostname": "worker",
-			"essential": falsei,
+			"essential": false,
 			"memory": 128
 
 		},
