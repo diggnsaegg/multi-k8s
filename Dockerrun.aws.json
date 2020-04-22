@@ -5,7 +5,8 @@
 			"name": "client",
 			"image": "dan361/multi-client",
 			"hostname": "client",
-			"essential": false
+			"essential": false,
+			"memory": 128
 
 		},
 	
@@ -13,7 +14,8 @@
 			"name": "server",
 			"image": "dan361/multi-server",
 			"hostname": "api",
-			"essential": false
+			"essential": false,
+			"memory": 128
 
 		},
 
@@ -22,7 +24,8 @@
 			"name": "worker",
 			"image": "dan361/multi-worker",
 			"hostname": "worker",
-			"essential": false
+			"essential": falsei,
+			"memory": 128
 
 		},
 	
@@ -39,7 +42,8 @@
 				}
 			],
 
-			"links": ["client", "server"]
+			"links": ["client", "server"],
+			"memory": 128
 
 			
 
